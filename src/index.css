@@ -1,0 +1,177 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.css-o5srbh-MuiPaper-root-MuiAppBar-root {
+  background-color: #75818d !important
+}
+.css-n7rtur-MuiPaper-root-MuiAppBar-root {
+  background-color: #75818d !important;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-light: rgba(255, 255, 255, 0.6);
+}
+
+/* FORM */
+.register {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* color: #ffffff; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=890&q=80"); */
+  /* background-color: var(--color-bg);
+  background-size: cover;
+  background-blend-mode: darken; */
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.registerTitle {
+  font-size: 50px;
+}
+
+.registerForm {
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm>label {
+  margin: 10px 0;
+  color: rgb(0, 0, 0);
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.registerButton:hover {
+  background-color: #313131;
+}
+
+@media screen and (max-width: 480px) {
+  .register {
+    background-position: right;
+  }
+
+  .registerInput {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .registerButton {
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+  .MuiTableRow-root:last-child th {
+    min-width: 0px !important;
+}
+.radiog{
+  display: block !important;
+}
+.radioabs{
+  margin-left: 0px !important;
+}
+}
+
+/* Change background */
+body{
+  background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.03) 25%, transparent 25%, rgba(0, 0, 0, 0.1) 50%);
+  background-size: 50rem;
+  /* height: 200vh; */
+}
+.evLVzc {
+  background: none !important;
+}
+.cmVOFt:hover {
+  background-color: rgb(0 0 0) !important;
+  color: white;
+}
+.css-gadse4-MuiPaper-root-MuiGrid-root{
+  background: none !important;
+}
+.css-1501vtl-MuiGrid-root{
+  /* background-color: none !important; */
+}
+
+.css-fxbtpg {
+  background: none !important;
+}
+.css-1fw5qro-MuiPaper-root{
+  background: none !important;
+}
+.css-3qkekv{
+  background: none !important;
+}
+
+
+
+.main-btn{
+  background: linear-gradient(to left top, #ffffff 50%, #efefef 50%);
+  border-style: none;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: 500;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+  border-radius: 0.2rem;
+}
+
+/* .main-btn:hover{
+  transition: all .5s;
+  transform: rotate(-3deg) scale(1.1);
+  box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+} */
+
+
+
+.fullatten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fullatten1{
+  padding: 5px 15px;
+}
